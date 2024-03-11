@@ -47,11 +47,11 @@ def temp_ban_api(country_code, phone_number):
 
 def main():
     otp_lock_banner()
-    country_code = input("\n\033[90m[\033[91m?\033[90m]] \033[92m[X]𝙀𝙉𝙏𝙀𝙍 𝘾𝙊𝙐𝙉𝙏𝙍𝙔 𝘾𝙊𝘿𝙀 (𝙚𝙜, +𝟵𝟭) : " '\n ❲𓃚⭛ ')
+    country_code = input("\n\033[90m[\033[91m?\033[90m]] \033[92m💀𝙀𝙉𝙏𝙀𝙍 𝘾𝙊𝙐𝙉𝙏𝙍𝙔 𝘾𝙊𝘿𝙀 (𝙚𝙜, +𝟵𝟭) : " '\n ❲𓃚⭛ ')
     if not country_code.startswith("+"):
         country_code = "+" + country_code
 
-    phone_number = input("\n\033[90m[\033[91m?\033[90m]] \033[92m[?]𝙀𝙉𝙏𝙀𝙍 𝙉𝙐𝙈𝘽𝙀𝙍 : " '\n ❲𓃚⭛ ')
+    phone_number = input("\n\033[90m[\033[91m?\033[90m]] \033[92m💀𝙀𝙉𝙏𝙀𝙍 𝙉𝙐𝙈𝘽𝙀𝙍 : " '\n ❲𓃚⭛ ')
     phone_number = phone_number.replace(" ", "")  # Remove spaces
 
     while True:
