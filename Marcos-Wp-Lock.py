@@ -24,12 +24,12 @@ def otp_lock_banner():
                                                                         
                                                                         
 [bold white]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[bold white][[bold red]^[bold white]] [bold green] ❲𓃚⭛ : 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙉𝙐𝙈𝘽𝙀𝙍 𝙇𝙊𝘾𝙆 | [bold white][[bold red]^[bold white]] [bold green] 𝗜𝗚 : royal.m4rcos [bold white][[bold red]^[bold white]] [bold green] 𝗧𝗘𝗟𝗘 : https://t.me/royalmarcos
+[bold white][[bold red]^[bold white]] [bold green] ❲𓃚⭛ : 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙉𝙐𝙈𝘽𝙀𝙍 𝙇𝙊𝘾𝙆 | \n [bold white][[bold red]^[bold white]] [bold green] 𝗜𝗚 : royal.m4rcos \n [bold white][[bold red]^[bold white]] [bold green] 𝗧𝗘𝗟𝗘 : https://t.me/royalmarcos
 [bold white]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ''')
         time.sleep(0.5)
   
 print('''[bold white]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[bold white][[bold red]^[bold white]] [bold green] ❲𓃚⭛ : 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙉𝙐𝙈𝘽𝙀𝙍 𝙇𝙊𝘾𝙆 | [bold white][[bold red]^[bold white]] [bold green] 𝗜𝗚 : royal.m4rcos [bold white][[bold red]^[bold white]] [bold green] 𝗧𝗘𝗟𝗘 : https://t.me/royalmarcos
+[bold white][[bold red]^[bold white]] [bold green] ❲𓃚⭛ : 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙉𝙐𝙈𝘽𝙀𝙍 𝙇𝙊𝘾𝙆 | \n [bold white][[bold red]^[bold white]] [bold green] 𝗜𝗚 : royal.m4rcos \n [bold white][[bold red]^[bold white]] [bold green] 𝗧𝗘𝗟𝗘 : https://t.me/royalmarcos
 [bold white]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ''')
 
 # API function
