@@ -16,7 +16,7 @@ def otp_lock_banner():
         console.clear()
         panel = Panel(f'''
 [bold {color}][bold {colors[(colors.index(color) + 1) % len(colors)]}][bold {colors[(colors.index(color) + 2) % len(colors)]}]     888b     d888         d8888 8888888b.   .d8888b.   .d88888b.   .d8888b. 
-   8888b    d8888       d88888 888   Y88b  d88PY88b  d88P" "Y88b  d88PY88b 
+8888b    d8888       d88888 888   Y88b  d88PY88b  d88P" "Y88b  d88PY88b 
    88888b.d8 8888      d88P888 888    888 888    888 888     888  Y88b.      
    888Y88888P 888     d88P 888 888   d88P 888        888     888  "Y888b.   
    888 Y888P  888    d88P  888 8888888P"  888        888     888     "Y88b. 
