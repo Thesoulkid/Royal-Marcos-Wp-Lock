@@ -91,24 +91,5 @@ for line, color_code, bold in lines:
 # Wait for 6 seconds
 time.sleep(6.0)
 
-# Function to redirect users to a Telegram channel
-def redirect_to_telegram_channel(channel_url):
-    """
-    Redirects the user to a Telegram channel using the provided URL.
-    
-    Args:
-        channel_url (str): The URL of the Telegram channel.
-    """
-    try:
-        subprocess.run(["am", "start", "-a", "android.intent.action.VIEW", "-d", channel_url], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    except subprocess.CalledProcessError as e:
-        print(f"Error: {e}")
-
-# URL of your Telegram channel
-telegram_channel_url = "https://t.me/royalmarcos"
-
-# Redirect users to the Telegram channel
-redirect_to_telegram_channel(telegram_channel_url)
-
 if __name__ == "__main__":
     main()
