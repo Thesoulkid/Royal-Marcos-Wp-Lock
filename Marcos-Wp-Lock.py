@@ -15,7 +15,7 @@ def otp_lock_banner():
     for color in colors:
         console.clear()
         panel = Panel(f'''
-[bold {color}][bold {colors[(colors.index(color) + 1) % len(colors)]}][bold {colors[(colors.index(color) + 2) % len(colors)]}]  888b     d888         d8888 8888888b.   .d8888b.   .d88888b.   .d8888b. 
+[bold {color}][bold {colors[(colors.index(color) + 1) % len(colors)]}][bold {colors[(colors.index(color) + 2) % len(colors)]}]   888b     d888         d8888 8888888b.   .d8888b.   .d88888b.   .d8888b. 
    8888b    d8888       d88888 888   Y88b  d88PY88b  d88P" "Y88b  d88PY88b 
    88888b.d8 8888      d88P888 888    888 888    888 888     888  Y88b.      
    888Y88888P 888     d88P 888 888   d88P 888        888     888  "Y888b.   
@@ -26,8 +26,8 @@ def otp_lock_banner():
                                                   @modder soulkid                       
                                                                         
                                                                         
-[bold {color}]●[bold {colors[(colors.index(color) + 1) % len(colors)]}] ●[bold {colors[(colors.index(color) + 2) % len(colors)]}] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[bold white][[bold red]^[bold white]] [bold green] ❲𓃚⭛ : 𝙍𝙊𝙔𝘼𝙇 𝙈𝘼𝙍𝘾𝙊𝙎 \n[bold white][[bold red]^[bold white]] [bold green] 𝗜𝗚 : royal.m4rcos \n[bold white][[bold red]^[bold white]] [bold green] 𝗧𝗘𝗟𝗘 : https://t.me/royalmarcos
+[bold {color}]●[bold {colors[(colors.index(color) + 1) % len(colors)]}] ●[bold {colors[(colors.index(color) + 2) % len(colors)]}] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[bold white][[bold red]^[bold white]] [bold green] ❲𓃚⭛ : 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝙉𝙐𝙈𝘽𝙀𝙍 𝙇𝙊𝘾𝙆 |  \n[bold white][[bold red]^[bold white]] [bold green] 𝗜𝗚 : royal.m4rcos \n[bold white][[bold red]^[bold white]] [bold green] 𝗧𝗘𝗟𝗘 : https://t.me/royalmarcos
 [bold {color}] [bold {colors[(colors.index(color) + 1) % len(colors)]}] [bold {colors[(colors.index(color) + 2) % len(colors)]}]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ''', title="[bold red] 𝗕𝗬 @𝗠𝗢𝗗𝗗𝗘𝗥 𝗦𝗢𝗨𝗟𝗞𝗜𝗗", style=color)
         console.print(panel)
         time.sleep(0.5)
